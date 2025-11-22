@@ -14,7 +14,7 @@ export const Header = () => {
     { name: "Contact us", href: "/contact" },
   ];
 
-  const ctaItem = { name: "Download App", href: "https://drive.google.com/drive/folders/1fZQ6piyoVWzfu1be3-YKnFxsOaaSbfE1?usp=drive_link" };
+  const ctaItem = { name: "Download App", href: "https://leveredge.co/apk/leveredge.apk" };
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
