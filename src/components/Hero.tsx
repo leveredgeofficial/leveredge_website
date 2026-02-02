@@ -31,7 +31,7 @@ export const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <a href="https://leveredge.co/apk/leveredge.apk" target="_blank" rel="noopener noreferrer">
+          <a href="/leveredge_2.0.3.apk" download>
             <Button 
               size="lg" 
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-lg px-8 py-6 rounded-xl shadow-primary"

@@ -14,7 +14,7 @@ export const Header = () => {
     { name: "Contact us", href: "/contact" },
   ];
 
-  const ctaItem = { name: "Download App", href: "https://leveredge.co/apk/leveredge.apk" };
+  const ctaItem = { name: "Download App", href: "/leveredge_2.0.3.apk" };
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
@@ -50,7 +50,7 @@ export const Header = () => {
                 </Link>
               )
             ))}
-            <a href={ctaItem.href} target="_blank" rel="noopener noreferrer">
+            <a href={ctaItem.href} download>
               <Button size="default" className="ml-4">
                 {ctaItem.name}
               </Button>
@@ -92,7 +92,7 @@ export const Header = () => {
                 </Link>
               )
             ))}
-            <a href={ctaItem.href} target="_blank" rel="noopener noreferrer" onClick={() => setIsMenuOpen(false)} className="block py-2">
+            <a href={ctaItem.href} download onClick={() => setIsMenuOpen(false)} className="block py-2">
               <Button size="default" className="w-full">
                 {ctaItem.name}
               </Button>
